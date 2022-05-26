@@ -1,0 +1,13 @@
+# Package Information for pkg-config
+
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/
+
+Name: ssd1306_i2c
+Description: 这是一个为树梅派编写的 ssd1306 i2c oled 库
+Version: 0.1
+Libs: -L${exec_prefix}/lib
+Libs.private: -ldl -lm -lpthread -lrt
+Cflags: -I${includedir} -lwiringPi -lssd1306_i2c
