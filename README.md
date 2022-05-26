@@ -1,5 +1,5 @@
 # yahboom-fan
-本项目是为 yahboom 的 RGB Cooling HAT 编写的控制程序。  
+本项目是为 yahboom 的树莓派 4B RGB Cooling HAT 编写的控制程序。  
 
 ![](res/show.png)
 
